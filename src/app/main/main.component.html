@@ -1,0 +1,23 @@
+<section id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card" [routerLink]="['/products/add']" routerLinkActive="router-link-active" >
+            <div class="card-body text-center">
+              <!-- Here is the card of Add new product -->
+              <h3>Click here to add new product</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card" [routerLink]="['/products/list']" routerLinkActive="router-link-active" >
+            <div class="card-body text-center">
+              <!-- Here is the card of products list -->
+              <h3>Click here to show all products</h3>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

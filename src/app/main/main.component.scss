@@ -1,0 +1,12 @@
+section#main{
+    .container{
+        margin: 200px auto;
+        .card{
+            cursor: pointer;
+                background: rgb(232, 232, 248);
+            &:hover{
+                background: rgb(190, 190, 238);
+            }
+        }
+    }
+}
